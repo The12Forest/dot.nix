@@ -9,6 +9,7 @@
     ./gnome.nix
     ./bash.nix
     ./clipboard_history.nix
+    ./claude.nix
   ];
   home.username = "manuel";
   home.homeDirectory = "/home/manuel";

@@ -81,4 +81,6 @@
     virtiofsd 
   ];
 
+  #MakeMKV
+  boot.kernelModules = [ "sg" ];
 }

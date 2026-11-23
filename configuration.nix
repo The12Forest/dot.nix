@@ -6,6 +6,7 @@
       ./hardware-configuration.nix
       ./Custom/graphical.nix
       ./Custom/apps.nix
+      # ./Custom/apps_pipewire.nix
       ./Custom/app_config.nix
       ./Custom/users.nix
       ./Custom/file_system.nix
@@ -13,6 +14,7 @@
       ./Custom/aliases.nix
       ./Custom/startup.nix
       ./Custom/printer.nix
+      ./Custom/gyroflow.nix
 
       # Home Manager
       (builtins.fetchTarball {

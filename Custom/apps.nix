@@ -15,7 +15,7 @@
     heroic
     curl
     git
-    btop
+    btop-cuda
     fastfetch
     tree
     remmina
@@ -55,7 +55,14 @@
     opencode
     gnome-boxes
     claude-desktop
-    # p3x-onenote
+    icu
+    openssl
+    zlib
+    dotnet-sdk
+    makemkv
+    obsidian
+    #deno
+    ncdu
   ];
 
     nixpkgs.overlays = [
@@ -67,7 +74,6 @@
           rev = "main";
           sha256 = "sha256-z2nbpF2MzpZQ6tdF+/voSgRfEMEz6C2xXZDBAAErDk0="; 
         };
-        
         flake-compat = import (super.fetchFromGitHub {
           owner = "edolstra";
           repo = "flake-compat";

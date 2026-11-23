@@ -6,7 +6,7 @@
     extraGroups = [ "wheel" "dialout" "docker" ]; # Enable ‘sudo’ for the user.
   };
   home-manager.users.manuel = import ../Home-Manager/Manuel/home.nix;
-
+  home-manager.useGlobalPkgs = true;
 
   #users.users.david = {
   #  isNormalUser = true;
